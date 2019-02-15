@@ -41,3 +41,18 @@ body{
   padding:5% 0;
 
 }
+#mainDiv p{
+  text-align:justify;
+  margin:5%;
+}
+
+#form{
+  margin:5%;
+}
+
+/* @media only screen and (max-width:500px){
+  #mainDiv{
+    width:70%;
+
+  }
+} */
