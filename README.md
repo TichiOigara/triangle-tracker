@@ -8,6 +8,17 @@ In order to use this application:
 * Clone or Download the repository to your computer.
 * Open the triangle-tracker folder and locate the index.html file.
 * Run the index.html file in a browser of your choice such as Google Chrome.
+##BDD
+The behaviors expected from the program are as shown below in the table:
+
+| Behavior <br> Our program should:       | Input Example:    | Output Example:     |
+| :------------- | :----------: | :----------- |
+| Check if the sides will not form triangle | 9, 4, 3  | It is not a triangle    |
+| Check if the sides will form an equilateral triangle   | 5, 5, 5 | The triangle is equilateral |
+| Check if the sides will form an isosceles triangle   | 5, 5, 4 | The triangle is isosceles |
+| Check if the sides will form a scalene triangle   | 8, 5, 9 | The triangle is equilateral |
+| Check if there is no entry    | no input | Request user to enter values |
+| Check if 0 (zero) is entered   | 0, 5, 9 | Request user to enter valid input |
 ## Technologies Used
 Technologies used for this project are:
 * HTML.
@@ -15,6 +26,7 @@ Technologies used for this project are:
 * JavaScript.
 ## Demo
 The link to the live site is <a href="https://tichioigara.github.io/triangle-tracker/" > here</a>.
+
 ## License
 
 MIT License
