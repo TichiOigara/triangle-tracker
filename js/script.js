@@ -6,6 +6,8 @@ function triangleTracker(){
   //control flow that checks if a triangle is isoscles, equilateral, scalene or not a triangle.
   if(isNaN(a) || isNaN(b) || isNaN(c)){
     triangle = "Please enter all three sides of the triangle. Only numerical values are accepted.";
+  }else if(a===0 || b===0 || c===0){
+    triangle ="O is not a valid entry. Please try again."
   }else{
     if(a+b >c && b+c >a && c+a>b){
       if(a===b && b===c && c===a ){

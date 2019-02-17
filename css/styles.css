@@ -70,7 +70,6 @@ input[type=number]{
 input[type=submit]{
   display:block;
   width:40%;
-
   padding: 5%;
   background-color:black;
   color:white;
@@ -98,6 +97,8 @@ input[type=reset]:hover{
 #answer{
   margin:5% 5%;
   display:block;
+  text-align: center;
+  font-style: italic;
 }
 #footer{
   background-color: #000000;
