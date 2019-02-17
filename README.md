@@ -8,7 +8,7 @@ In order to use this application:
 * Clone or Download the repository to your computer.
 * Open the triangle-tracker folder and locate the index.html file.
 * Run the index.html file in a browser of your choice such as Google Chrome.
-##BDD
+## BDD
 The behaviors expected from the program are as shown below in the table:
 
 | Behavior <br> Our program should:       | Input Example:    | Output Example:     |

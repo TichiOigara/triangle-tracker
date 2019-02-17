@@ -13,12 +13,12 @@ function triangleTracker() {
       if (a === b && b === c && c === a) {
         triangle = "The triangle is equilateral. All the sides are equal.";
       } else if (a === b || b === c || c === a) {
-        triangle = "The triangle is isoscles. Only two out of the three sides are equal.";
+        triangle = "The triangle is isosceles. Only two out of the three sides are equal.";
       } else {
         triangle = "The triangle is scalene. None of its sides are equal to one another. ";
       }
     } else {
-      triangle = "The measurement you have put will not form a triangle. This is because the sum of two of its sides are equal to or less than the third side. ";
+      triangle = "The measurements you have entered will not form a triangle. This is because the sum of two of its sides are equal to or less than the third side. ";
     }
   }
 
