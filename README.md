@@ -9,7 +9,7 @@ In order to use this application:
 * Open the triangle-tracker folder and locate the index.html file.
 * Run the index.html file in a browser of your choice such as Google Chrome.
 ## BDD
-The behaviors expected from the program are as shown below in the table:
+The behavior expected from the program is as shown below in the table:
 
 | Behavior <br> Our program should:       | Input Example:    | Output Example:     |
 | :------------- | :----------: | :----------- |
@@ -26,7 +26,9 @@ Technologies used for this project are:
 * JavaScript.
 ## Demo
 The link to the live site is <a href="https://tichioigara.github.io/triangle-tracker/" > here</a>.
-
+## Support and Contact Details
+If you encounter a problem, kindly open an issue <a href="https://github.com/TichiOigara/triangle-tracker/issues/new">here</a>.
+You can also request for new features or behavior by opening an issue <a href="https://github.com/TichiOigara/triangle-tracker/issues/new">here</a>.
 ## License
 
 MIT License
