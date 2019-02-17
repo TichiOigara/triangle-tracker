@@ -1,120 +1,125 @@
-html{
-  height:100%;
-
+html {
+  height: 100%;
 }
-body{
+
+body {
   background-image: url('../images/triangle.jpg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  padding:0;
-  margin:0;
-  height:100%;
-  width:auto;
-  display:flex;
-  font-family:'ABeeZee', sans-serif;
-  font-size:1.2em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: auto;
+  display: flex;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1.2em;
+}
 
-}
-.container{
-  height:100%;
-  width:100%;
-  background-color:rgba(0,0,0,0.7);
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 2;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  margin:0;
+  margin: 0;
 }
-#mainDiv{
-  margin:auto auto;
-  width:30%;
-  height:90%;
+
+#mainDiv {
+  margin: auto auto;
+  width: 30%;
+  height: 90%;
   background-color: #ffffff;
   border-radius: 10px;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  border:1px solid #0d47a1;
-
+  border: 1px solid #0d47a1;
 }
-#mainDiv h1{
-  background-color:#0d47a1;
-  width:100%;
-  margin:0;
-  border-top-right-radius:8px;
+
+#mainDiv h1 {
+  background-color: #0d47a1;
+  width: 100%;
+  margin: 0;
+  border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  color:white;
-  text-transform:uppercase;
-  text-align:center;
-  padding:5% 0;
-
-}
-#mainDiv p{
-  text-align:justify;
-  margin:5%;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5% 0;
 }
 
-#form{
-  margin:5%;
+#mainDiv p {
+  text-align: justify;
+  margin: 5%;
 }
-input[type=number]{
-  width:100%;
-  margin:2% 0;
-  padding:2% 0;
-  border-radius:5px;
-  display:inline-block;
-}
-#buttons{
-  display:flex;
-  justify-content:space-between;
 
+#form {
+  margin: 5%;
 }
-input[type=submit]{
-  display:block;
-  width:40%;
+
+input[type=number] {
+  width: 100%;
+  margin: 2% 0;
+  padding: 2% 0;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type=submit] {
+  display: block;
+  width: 40%;
   padding: 5%;
-  background-color:black;
-  color:white;
-  border-radius:10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
 }
 
-input[type=submit]:hover{
-  background-color:#0d47a1;
-  box-shadow:2px 2px 5px black;
+input[type=submit]:hover {
+  background-color: #0d47a1;
+  box-shadow: 2px 2px 5px black;
 }
-input[type=reset]{
-  display:block;
-  width:40%;
 
+input[type=reset] {
+  display: block;
+  width: 40%;
   padding: 5%;
-  background-color:black;
-  color:white;
-  border-radius:10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
 }
 
-input[type=reset]:hover{
-  background-color:#0d47a1;
-  box-shadow:2px 2px 5px black;
+input[type=reset]:hover {
+  background-color: #0d47a1;
+  box-shadow: 2px 2px 5px black;
 }
-#answer{
-  margin:5% 5%;
-  display:block;
+
+#answer {
+  margin: 5% 5%;
+  display: block;
   text-align: center;
   font-style: italic;
 }
-#footer{
-  background-color: #000000;
-  color:#ffffff;
-  text-align: center;
-  width:100%;
-}
-@media only screen and (max-width:767px){
-  #mainDiv{
-    width:70%;
 
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (max-width:767px) {
+  #mainDiv {
+    width: 70%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  #mainDiv{
-    width:50%;
+  #mainDiv {
+    width: 50%;
   }
 }
