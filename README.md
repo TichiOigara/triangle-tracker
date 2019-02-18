@@ -11,7 +11,7 @@ In order to use this application:
 ## BDD
 The behavior expected from the program is as shown below in the table:
 
-| Behavior <br> Our program should:       | Input Example:    | Output Example:     |
+| Behavior <br> The program should:       | Input Example:    | Output Example:     |
 | :------------- | :----------: | :----------- |
 | Check if the sides will not form triangle | 9, 4, 3  | It is not a triangle    |
 | Check if the sides will form an equilateral triangle   | 5, 5, 5 | The triangle is equilateral |
